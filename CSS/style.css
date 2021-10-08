@@ -1,0 +1,27 @@
+body{
+    background-color:hotpink;
+}
+
+p{
+    font-size: 30px;
+}
+
+#heading1{
+color: ivory;
+}
+
+.text1{
+color: saddlebrown;
+}
+
+#div1{
+    color: snow;
+}
+
+p:hover{
+    color: yellowgreen;
+}
+
+p::first-line{
+    color: teal;
+}

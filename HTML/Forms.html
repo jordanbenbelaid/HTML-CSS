@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form action="/HTML/index.html">
+      Please enter your name:
+      <br />
+      <input
+        type="text"
+        placeholder="Please enter first and last name"
+        name="fName"
+      />
+      <br />
+      <textarea name="txtArea" rows="4" cols="10">
+            Enter your address
+        </textarea
+      >
+      <br />
+      Radio buttons and checkboxes
+      <input type="radio" name="radio" value="Football" />Football
+      <input type="radio" name="radio" value="Basketball" />Basketball
+      <input type="radio" name="radio" value="Tennis" />Tennis
+      <input type="radio" name="radio" value="Swimming" />Swimming
+      <br />
+      <input type="checkbox" name="checkTea" value="Yes" />Tea
+      <input type="checkbox" name="checkCoffee" value="Yes" />Coffee
+      <br />
+
+      <label>Please select and option</label>
+      <select name="Games" id="Games">
+        <option value="" disabled selected>Please select your option</option>
+        <option value="Fifa">Fifa</option>
+        <option value="Resident Evil">Resident Evil</option>
+        <option value="Overwatch">Overwatch</option>
+        <option value="Warzone">Warzone</option>
+        <option value="Rocket League">Rocket League</option>
+      </select>
+      <br />
+      <input list="games" />
+      <datalist id="games">
+        <option value="Fifa">Fifa</option>
+        <option value="Resident Evil">Resident Evil</option>
+        <option value="Overwatch">Overwatch</option>
+        <option value="Warzone">Warzone</option>
+        <option value="Rocket League">Rocket League</option>
+      </datalist>
+      <br />
+      <label for="">Enter email pls</label>
+      <input type="email" name="email" />
+      <br />
+      <label for="">numbers</label>
+      <input type="number" min="1" max="50" />
+
+      <br />
+      <label for="">Range</label>
+      <input type="range" min="1" max="20" value="5" />
+
+      <br />
+      <input type="date" />
+
+      <br />
+      <input type="search" q="searchProducts" />
+      <br />
+      <!-- <input type="text" pattern="[0-9]{13,16}" name="credit" autofocus="true"> -->
+      <br />
+      <fieldset>
+        <legend>Your details</legend>
+        <label>First Name</label>
+        <input type="text" id="firstname" />
+        <label>Last Name</label>
+        <input type="text" id="lastname" />
+        <label>age</label>
+        <input type="number" id="age" />
+      </fieldset>
+
+      <br /><br />
+      <button type="submit" name="submitBtn">SUBMIT</button>
+      <button type="reset" name="resetBtn">RESET</button>
+      <button type="button" name="Btn">BUTTON</button>
+    </form>
+  </body>
+</html>
